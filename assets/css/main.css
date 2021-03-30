@@ -1906,8 +1906,8 @@ textarea {
 }
 
 .copyright p {
-  line-height: 60px;
-  color: #fff;
+  line-height: 20px;
+  color: rgb(160, 147, 225);
   text-align: center;
   margin: 0;
 }
