@@ -45,7 +45,7 @@ p {
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 ul, ol {
@@ -1150,7 +1150,7 @@ hr {
 
 #pricing .table .description {
   text-align: center;
-  padding: 0px 50px;
+  padding: 0px 0px;
   margin-bottom: 20px;
 }
 
