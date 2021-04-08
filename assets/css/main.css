@@ -95,7 +95,7 @@ a:not([href]):not([tabindex]) {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: rgba(15, 17, 27, 0.8);
+  background: rgb(54 74 165);
 }
 
 .btn {
@@ -804,7 +804,7 @@ hr {
  Counter Section Style
  ========================================================================== */
 #counter {
-  background: url(../img/count-bg.jpg);
+  background-color: #364ca6;
   background-position: center center;
   background-size: cover;
   position: relative;
