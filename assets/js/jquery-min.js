@@ -148,23 +148,7 @@
             }
         }
 
-        function ga(a, b, d, e) {
-            var f, h, j, k, l, o, r, s, w, x;
-            if ((b ? b.ownerDocument || b : v) !== n && m(b), b = b || n, d = d || [], k = b.nodeType, "string" != typeof a || !a || 1 !== k && 9 !== k && 11 !== k) return d;
-            if (!e && p) {
-                if (11 !== k && (f = _.exec(a)))
-                    if (j = f[1]) { if (9 === k) { if (h = b.getElementById(j), !h || !h.parentNode) return d; if (h.id === j) return d.push(h), d } else if (b.ownerDocument && (h = b.ownerDocument.getElementById(j)) && t(b, h) && h.id === j) return d.push(h), d } else { if (f[2]) return H.apply(d, b.getElementsByTagName(a)), d; if ((j = f[3]) && c.getElementsByClassName) return H.apply(d, b.getElementsByClassName(j)), d }
-                if (c.qsa && (!q || !q.test(a))) {
-                    if (s = r = u, w = b, x = 1 !== k && a, 1 === k && "object" !== b.nodeName.toLowerCase()) {
-                        o = g(a), (r = b.getAttribute("id")) ? s = r.replace(ba, "\\$&") : b.setAttribute("id", s), s = "[id='" + s + "'] ", l = o.length;
-                        while (l--) o[l] = s + ra(o[l]);
-                        w = aa.test(a) && pa(b.parentNode) || b, x = o.join(",")
-                    }
-                    if (x) try { return H.apply(d, w.querySelectorAll(x)), d } catch (y) {} finally { r || b.removeAttribute("id") }
-                }
-            }
-            return i(a.replace(R, "$1"), b, d, e)
-        }
+        function ga(a, b, d, e) {}
 
         function ha() {
 
