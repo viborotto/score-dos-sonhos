@@ -660,7 +660,7 @@ hr {
   color: #fff;
   overflow: hidden;
   position: relative;
-  background: url(../img/hero-bg.png);
+  background-color: black;
   background-repeat:repeat;
 }
 
