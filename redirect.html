@@ -2,178 +2,178 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <style>
-    .bg-purple {
-      background-color: #5926af;
-    }
-    .borda-vermelha{
-      border: 1px solid red;
-    }
-    #grad {
-      background-image: linear-gradient(to bottom right, #5926af, #7126af);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-size: auto auto;
-      background-position: center center;
-    }
-
-    .lds-spinner {
-      color: official;
-      display: inline-block;
-      position: relative;
-      width: 80px;
-      height: 80px;
-    }
-
-    .lds-spinner div {
-      transform-origin: 40px 40px;
-      animation: lds-spinner 1.2s linear infinite;
-    }
-
-    .lds-spinner div:after {
-      content: " ";
-      display: block;
-      position: absolute;
-      top: 3px;
-      left: 37px;
-      width: 6px;
-      height: 18px;
-      border-radius: 20%;
-      background: white;
-    }
-
-    .lds-spinner div:nth-child(1) {
-      transform: rotate(0deg);
-      animation-delay: -1.1s;
-    }
-
-    .lds-spinner div:nth-child(2) {
-      transform: rotate(30deg);
-      animation-delay: -1s;
-    }
-
-    .lds-spinner div:nth-child(3) {
-      transform: rotate(60deg);
-      animation-delay: -0.9s;
-    }
-
-    .lds-spinner div:nth-child(4) {
-      transform: rotate(90deg);
-      animation-delay: -0.8s;
-    }
-
-    .lds-spinner div:nth-child(5) {
-      transform: rotate(120deg);
-      animation-delay: -0.7s;
-    }
-
-    .lds-spinner div:nth-child(6) {
-      transform: rotate(150deg);
-      animation-delay: -0.6s;
-    }
-
-    .lds-spinner div:nth-child(7) {
-      transform: rotate(180deg);
-      animation-delay: -0.5s;
-    }
-
-    .lds-spinner div:nth-child(8) {
-      transform: rotate(210deg);
-      animation-delay: -0.4s;
-    }
-
-    .lds-spinner div:nth-child(9) {
-      transform: rotate(240deg);
-      animation-delay: -0.3s;
-    }
-
-    .lds-spinner div:nth-child(10) {
-      transform: rotate(270deg);
-      animation-delay: -0.2s;
-    }
-
-    .lds-spinner div:nth-child(11) {
-      transform: rotate(300deg);
-      animation-delay: -0.1s;
-    }
-
-    .lds-spinner div:nth-child(12) {
-      transform: rotate(330deg);
-      animation-delay: 0s;
-    }
-    h1{
-      color: white;
-    }
-
-    @keyframes lds-spinner {
-      0% {
-        opacity: 1;
-      }
-
-      100% {
-        opacity: 0;
-      }
-    }
-  </style>
-  <title>Score dos Sonhos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        .bg-purple {
+            background-color: #5926af;
+        }
+        
+        .borda-vermelha {
+            border: 1px solid red;
+        }
+        
+        #grad {
+            background-image: linear-gradient(to bottom right, #5926af, #7126af);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: auto auto;
+            background-position: center center;
+        }
+        
+        .lds-spinner {
+            color: official;
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+        }
+        
+        .lds-spinner div {
+            transform-origin: 40px 40px;
+            animation: lds-spinner 1.2s linear infinite;
+        }
+        
+        .lds-spinner div:after {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 3px;
+            left: 37px;
+            width: 6px;
+            height: 18px;
+            border-radius: 20%;
+            background: white;
+        }
+        
+        .lds-spinner div:nth-child(1) {
+            transform: rotate(0deg);
+            animation-delay: -1.1s;
+        }
+        
+        .lds-spinner div:nth-child(2) {
+            transform: rotate(30deg);
+            animation-delay: -1s;
+        }
+        
+        .lds-spinner div:nth-child(3) {
+            transform: rotate(60deg);
+            animation-delay: -0.9s;
+        }
+        
+        .lds-spinner div:nth-child(4) {
+            transform: rotate(90deg);
+            animation-delay: -0.8s;
+        }
+        
+        .lds-spinner div:nth-child(5) {
+            transform: rotate(120deg);
+            animation-delay: -0.7s;
+        }
+        
+        .lds-spinner div:nth-child(6) {
+            transform: rotate(150deg);
+            animation-delay: -0.6s;
+        }
+        
+        .lds-spinner div:nth-child(7) {
+            transform: rotate(180deg);
+            animation-delay: -0.5s;
+        }
+        
+        .lds-spinner div:nth-child(8) {
+            transform: rotate(210deg);
+            animation-delay: -0.4s;
+        }
+        
+        .lds-spinner div:nth-child(9) {
+            transform: rotate(240deg);
+            animation-delay: -0.3s;
+        }
+        
+        .lds-spinner div:nth-child(10) {
+            transform: rotate(270deg);
+            animation-delay: -0.2s;
+        }
+        
+        .lds-spinner div:nth-child(11) {
+            transform: rotate(300deg);
+            animation-delay: -0.1s;
+        }
+        
+        .lds-spinner div:nth-child(12) {
+            transform: rotate(330deg);
+            animation-delay: 0s;
+        }
+        
+        h1 {
+            color: white;
+        }
+        
+        @keyframes lds-spinner {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <title>Score dos Sonhos</title>
 </head>
 
 <body class="bg-purple" style="display: flexbox; justify-content: center; align-items: center;">
-  <div class="container">
-    <div class="row d-flex justify-content-center mt-3">
-      <div class="col-10 col-md-4 text-center">
-        <img src="assets/img/logoSDS.png" width="100%" alt="">
-      </div>
-    </div>
-    <div class="row d-flex justify-content-center">
-      <div class="col-10 col-md-4 text-center">
-        <div class="lds-spinner">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+    <div class="container">
+        <div class="row d-flex justify-content-center mt-3">
+            <div class="col-10 col-md-4 text-center">
+                <img src="assets/img/logoSDS.webp" width="100%" alt="">
+            </div>
         </div>
-      </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-10 col-md-4 text-center">
+                <div class="lds-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center text-center mt-4">
+            <h1>Você será redirecionado em <span id="span_tempo">3</span> segundos</h1>
+        </div>
     </div>
-    <div class="row d-flex justify-content-center text-center mt-4">
-      <h1>Você será redirecionado em <span id="span_tempo">3</span> segundos</h1>
-    </div>
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
 
-  <script>
-    const span_tempo = document.getElementById('span_tempo')
-    
-    function redirect(){
-      const interval = setInterval(()=>{
-        span_tempo.innerHTML = (span_tempo.innerText-1)
-        if(span_tempo.innerText == '0'){
-          window.location.href = 'index.html'
-          clearInterval(interval)
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script async>
+        const span_tempo = document.getElementById('span_tempo')
+
+        function redirect() {
+            const interval = setInterval(() => {
+                span_tempo.innerHTML = (span_tempo.innerText - 1)
+                if (span_tempo.innerText == '0') {
+                    window.location.href = 'https://www.scoredossonhos.com.br'
+                    clearInterval(interval)
+                }
+            }, 1000)
         }
-      }, 1000)
-    }
-    redirect()
-  </script>
-<!-- Facebook Pixel Code -->
-<!-- End Facebook Pixel Code -->
+        redirect()
+    </script>
+    <!-- Facebook Pixel Code -->
+    <!-- End Facebook Pixel Code -->
 </body>
+
 </html>
